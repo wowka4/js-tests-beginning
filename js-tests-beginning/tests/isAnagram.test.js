@@ -1,7 +1,8 @@
 import { isAnagram } from "../src/isAnagram.js";
+import { strict as assert} from 'node:assert';
 
-if (isAnagram('racer', 'carer') === false) throw new Error('Функция работает неверно!');
-if (isAnagram('', 'crazy') === true) throw new Error('Функция работает неверно!');
-if (isAnagram('crazy', '') === true) throw new Error('Функция работает неверно!');
+assert(isAnagram('racer', 'carer') === true);
+assert(isAnagram('', 'crazy') === false);
+assert(isAnagram('crazy', '') === false);
 
-console.log('Все тесты пройдены!');
+console.log('Tests have been passed!');
