@@ -1,0 +1,27 @@
+{
+  "name": "hexlet-jest",
+  "version": "1.0.0",
+  "description": "Jest",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/wowka4/jest-practice.git"
+  },
+  "author": "Wowka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wowka4/jest-practice/issues"
+  },
+  "homepage": "https://github.com/wowka4/jest-practice#readme",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "power-assert": "^1.6.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
