@@ -14,14 +14,12 @@
 const count = 8;
 const row = [];
 const char = '#';
-let done = 0;
 function padRow(rowNumber, rowCount) {
     return ' '.repeat(rowCount - rowNumber) + char.repeat(2 * rowNumber - 1) +
         ' '.repeat(rowCount - rowNumber);
 }
-while (done !== count) {
-    done++;
-    row.push(padRow(done,count));
+while (row.length < count) {
+    row.push(padRow(row.length + 1,count));
 }
 
 let result = '';
