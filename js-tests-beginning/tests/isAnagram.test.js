@@ -1,8 +1,8 @@
 import { isAnagram } from "../src/isAnagram.js";
-import { strict as assert} from 'node:assert';
+import { strict as assert } from 'node:assert';
 
-assert.equal(isAnagram('racer', 'carer'), true);
-assert.equal(isAnagram('', 'crazy'), false);
-assert.equal(isAnagram('crazy', ''), false);
+assert.strictEqual(isAnagram('racer', 'carer'), true);
+assert.strictEqual(isAnagram('', 'crazy'), false);
+assert.strictEqual(isAnagram('crazy', ''), false);
 
-console.log('Tests have been passed!');
+console.log('The tests have been passed!');

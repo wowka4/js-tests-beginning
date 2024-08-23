@@ -13,7 +13,7 @@
 
 const count = 8;
 const row = [];
-const char = '#';
+let char = '#';
 function padRow(rowNumber, rowCount) {
     return ' '.repeat(rowCount - rowNumber) + char.repeat(2 * rowNumber - 1) +
         ' '.repeat(rowCount - rowNumber);

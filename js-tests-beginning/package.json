@@ -6,6 +6,15 @@
   "directories": {
     "test": "tests"
   },
+  "dependencies": {
+    "lodash": "*",
+    "power-assert": "*",
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.1",
+    "@babel/node": "^7.10.1",
+    "@babel/preset-env": "^7.10.1",
+    "babel-preset-power-assert": "^3.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
